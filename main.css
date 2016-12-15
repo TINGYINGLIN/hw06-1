@@ -1,0 +1,35 @@
+body {
+    background-color:lightgreen;
+}
+@media (max-width: 767px) {
+    body {
+        background-color:red;
+      animation:1s;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background-color:lightblue;
+      animation:1s;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        background-color:lightgreen;
+      animation:1s;
+    }
+}
+@media (min-width: 980px) {
+   body {
+        background-color:orange;
+     animation:1s;
+    }
+}
+@media (min-width: 1200px) {
+
+    body {
+        background-color:purple;
+      animation:1s;
+    }
+}
+
